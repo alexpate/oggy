@@ -1,0 +1,23 @@
+{
+  "name": "oggy",
+  "version": "1.0.0",
+  "description":
+    "A microservice to generate beautiful open graph images for your blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro"
+  },
+  "author": "Alex Pate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexpate/oggy"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "fabric": "^1.7.19",
+    "micro": "^9.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.7.2"
+  }
+}
